@@ -1,0 +1,36 @@
+INSERT INTO Jucarii (codJucarii, Nume_Jucarie, Pret, Cantitate, Tara_Productie, Varsta_Minima)
+VALUES
+  ('COD001', 'Masina de jucarie', 29.99, 50, 'China', 3),
+  ('COD002', 'Puzzle', 12.50, 100, 'Romania', 4),
+  ('COD003', 'Papusa Barbie', 39.99, 30, 'Statele Unite', 5),
+  ('COD004', 'Set trenulet electric', 49.99, 20, 'Germania', 3),
+  ('COD005', 'Robot Transformers', 34.99, 40, 'Japonia', 6);
+
+INSERT INTO Papusile (ID_Jucarie, codPapusa, Material, Inaltime)
+VALUES
+  (1, 'CODP001', 'Plastic', 12.5),
+  (3, 'CODP002', 'Material textil', 18.0),
+  (4, 'CODP003', 'Plastic', 9.5);
+
+INSERT INTO Categorii (codCategorie, Nume_Categorie)
+VALUES
+  ('CODC001', 'Vehicule'),
+  ('CODC002', 'Puzzle'),
+  ('CODC003', 'Papusi'),
+  ('CODC004', 'Jocuri de constructie');
+
+INSERT INTO Jucarii_Categorii (ID_Jucarie, ID_Categorie, codJucarieCategorie)
+VALUES
+  (1, 1, 'CODJC001'),
+  (2, 2, 'CODJC002'),
+  (3, 3, 'CODJC003'),
+  (4, 1, 'CODJC004'),
+  (5, 1, 'CODJC005');
+
+INSERT INTO Vanzari (ID_Jucarie, codVanzare, Data_Vanzare, Cantitate_Vanduta)
+VALUES
+  (1, 'CODV001', '2023-10-01', 10),
+  (2, 'CODV002', '2023-10-02', 5),
+  (3, 'CODV003', '2023-10-03', 8),
+  (4, 'CODV004', '2023-10-04', 15),
+  (5, 'CODV005', '2023-10-05', 12);
