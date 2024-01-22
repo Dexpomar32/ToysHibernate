@@ -26,4 +26,4 @@ ToysHibernate is a Java project that utilizes Hibernate 6.3.1 to manage a MySQL 
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests to improve MailBridge.
+Contributions are welcome! Feel free to open issues or submit pull requests to improve ToysHibernate.
